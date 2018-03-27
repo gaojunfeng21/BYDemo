@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="25" height="15" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="choose" tilewidth="32" tileheight="32">
+  <image source="choose.png" width="800" height="480"/>
+ </tileset>
+ <layer name="choose" width="25" height="15">
+  <data encoding="base64" compression="zlib">
+   eJwNwwl0CAQAANBhzH3NbdjYGGaY+2bmnDk2xzbXhrnnNkKhO8rZQVGUWwflvo8OR3eUW9FBuSu38t/7P1tAQEB2cxhoTnMZZG7zmNd85reABS1kYYtY1GCLWdwSlrSUpS1jWUMsZ3krGGqYFa1kuBFWtoqRVrWa1Y2yhtHWtJa1jbGOda1nfRvY0EY2tolNbWZzW9jSVsba2jjb2NZ2treDHY23kwl2totd7WaiSXa3hz3tZbIpptrbPva1n/1NM90BDnSQGQ52iEMd5nBHONJMRznaMY51nOOd4ESznORkn3CKU53mkz7ldGc406d9xmd9zud9wRd9yVnO9mVfcY5zned8F7jQV33N133DRS72Td9yiUt923dc5nLf9T1XuNJVrnaNa13net/3Az/0Ize40Y/9xE1udotb3eZ2d7jTXe52j3vd534PeNBP/czP/cJDHvaIR/3Sr/zab/zW7/zeHzzmcX/0J0940lOe9oxnPed5f/YXL3jRX/3N3/3DS172T//yile95nVveNNb/u0//utt73jXe973gQ995H/+b0A2zG4OA81pLoPMbR7zms/8FrCghSxsEYsabDGLW8KSlrK0ZSxriOUsbwVDDbOilQw3wspWMdKqVrO6UdYw2prWsrYx1rGu9axvAxvayMY2sanNbG4LW9rKWFsbZxvb2s72drCj8XYywc52savdTDTJ7vawp71MNsVUe9vHvvazv2mmO8CBDjLDwQ5xqMMc7ghHmukoRzvGsY5zvBOcaJaTfAzdiZvd
+  </data>
+ </layer>
+ <objectgroup name="task" width="25" height="15">
+  <object x="147" y="384"/>
+  <object x="160" y="329"/>
+  <object x="225" y="291"/>
+  <object x="169" y="248"/>
+  <object x="177" y="166"/>
+  <object x="239" y="123"/>
+  <object x="319" y="98"/>
+  <object x="302" y="156"/>
+  <object x="275" y="216"/>
+  <object x="303" y="274"/>
+  <object x="279" y="328"/>
+  <object x="344" y="342"/>
+  <object x="380" y="293"/>
+  <object x="391" y="216"/>
+  <object x="457" y="178"/>
+  <object x="487" y="101"/>
+  <object x="579" y="106"/>
+  <object x="541" y="168"/>
+  <object x="493" y="226"/>
+  <object x="548" y="270"/>
+  <object x="538" y="336"/>
+  <object x="597" y="346"/>
+  <object x="622" y="293"/>
+  <object x="680" y="264"/>
+ </objectgroup>
+</map>

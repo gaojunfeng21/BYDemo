@@ -1,0 +1,36 @@
+﻿生成启动时间为 2018/3/19 22:28:54。
+     1>项目“F:\jdkp\proj.win32\jdkp.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         E:\vs\VC\bin\CL.exe /c /IF:\jdkp\cocos2d\cocos\2d\..\..\ /IF:\jdkp\cocos2d\cocos\2d\..\..\external /IF:\jdkp\cocos2d\cocos\2d\..\..\cocos\audio\include /IF:\jdkp\cocos2d\cocos\2d\..\..\external\chipmunk\include\chipmunk /IF:\jdkp\cocos2d\cocos\2d\..\..\extensions /I..\Classes /I.. /IF:\jdkp\cocos2d\cocos\2d\..\..\cocos /I"F:\jdkp\cocos2d\cocos\2d\..\..\cocos/editor-support" /IF:\jdkp\cocos2d\cocos\2d\..\..\external\glfw3\include\win32 /I"F:\jdkp\cocos2d\cocos\2d\..\..\external\win32-specific\gles\include\OGLES" /IF:\jdkp\cocos2d\cocos\2d\..\..\external\freetype2\include\win32\freetype2 /IF:\jdkp\cocos2d\cocos\2d\..\..\external\freetype2\include\win32\ /IF:\jdkp\cocos2d\cocos\2d\..\..\external /IF:\jdkp\cocos2d\cocos\2d\..\..\external\openssl\include\win32 /ZI /nologo /W3 /WX- /MP /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USE_MATH_DEFINES /D GL_GLEXT_PROTOTYPES /D CC_ENABLE_CHIPMUNK_INTEGRATION=1 /D COCOS2D_DEBUG=1 /D _CRT_SECURE_NO_WARNINGS /D _SCL_SECURE_NO_WARNINGS /D _VARIADIC_MAX=10 /D _USING_V110_SDK71_ /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug.win32\\" /Fd"Debug.win32\vc120.pdb" /Gd /TP /wd4267 /wd4251 /wd4244 /analyze- /errorReport:prompt ..\Classes\HelloWorldScene.cpp
+         HelloWorldScene.cpp
+     1>f:\jdkp\classes\playersprite.h(45): warning C4996: 'cocos2d::CCAction': 被声明为已否决
+                 f:\jdkp\cocos2d\cocos\deprecated\ccdeprecated.h(618) : 参见“cocos2d::CCAction”的声明
+     1>f:\jdkp\classes\playersprite.h(56): warning C4996: 'cocos2d::CCAction': 被声明为已否决
+                 f:\jdkp\cocos2d\cocos\deprecated\ccdeprecated.h(618) : 参见“cocos2d::CCAction”的声明
+       Link:
+         E:\vs\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\jdkp\proj.win32\Debug.win32\jdkp.exe" /INCREMENTAL /NOLOGO /LIBPATH:F:\jdkp\proj.win32\Debug.win32\ /LIBPATH:F:\jdkp\proj.win32\Debug.win32\ libcurl.lib opengl32.lib glew32.lib libzlib.lib libwebp.lib libiconv.lib freetype.lib winmm.lib ws2_32.lib libbox2d.lib libSpine.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:\jdkp\proj.win32\Debug.win32\jdkp.pdb" /SUBSYSTEM:WINDOWS,"5.01" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\jdkp\proj.win32\Debug.win32\jdkp.lib" /MACHINE:X86 /SAFESEH Debug.win32\game.res
+         Debug.win32\AppDelegate.obj
+         Debug.win32\GameCoverLayer.obj
+         Debug.win32\GameMoreMoneyLayer.obj
+         Debug.win32\GameShopScene.obj
+         Debug.win32\GameSignLayer.obj
+         Debug.win32\GameStageLayer.obj
+         Debug.win32\GameStartScene.obj
+         Debug.win32\HelloWorldScene.obj
+         Debug.win32\PlayerSprite.obj
+         Debug.win32\main.obj
+         F:\jdkp\proj.win32\Debug.win32\libcocos2d.lib
+         F:\jdkp\proj.win32\Debug.win32\libSpine.lib
+         F:\jdkp\proj.win32\Debug.win32\libbox2d.lib
+         jdkp.vcxproj -> F:\jdkp\proj.win32\Debug.win32\jdkp.exe
+       CustomBuildStep:
+         if not exist "F:\jdkp\proj.win32\Debug.win32\" mkdir "F:\jdkp\proj.win32\Debug.win32\"
+         xcopy "F:\jdkp\proj.win32\..\Resources" "F:\jdkp\proj.win32\Debug.win32\" /D /E /I /F /Y
+               
+         :VCEnd
+         复制了 0 个文件
+     1>已完成生成项目“F:\jdkp\proj.win32\jdkp.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:12.01
